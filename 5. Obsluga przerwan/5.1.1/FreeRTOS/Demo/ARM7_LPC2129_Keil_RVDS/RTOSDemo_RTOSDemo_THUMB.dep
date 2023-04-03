@@ -1,0 +1,130 @@
+Dependencies for Project 'RTOSDemo', Target 'RTOSDemo_THUMB': (DO NOT MODIFY !)
+F (.\Startup.s)(0x6402706C)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I..\..\Source\portable\RVDS\ARM7_LPC21xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\bin\startup.o --depend .\bin\startup.d)
+F (.\main.c)(0x641B979C)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\main.o --omf_browse .\bin\main.crf --depend .\bin\main.d)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\FreeRTOS.h)(0x640270C0)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\FreeRTOSConfig.h)(0x6410E848)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\projdefs.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\portable.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\deprecated_definitions.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\mpu_wrappers.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\task.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\list.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\led.h)(0x6410D334)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\timer_interrupts.h)(0x6412DB4E)
+F (.\led.c)(0x6410D2A4)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\led.o --omf_browse .\bin\led.crf --depend .\bin\led.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\led.h)(0x6410D334)
+F (.\string.c)(0x64189D93)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\string.o --omf_browse .\bin\string.crf --depend .\bin\string.d)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\string.h)(0x64189D90)
+F (.\uart.c)(0x6412DB4E)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\uart.o --omf_browse .\bin\uart.crf --depend .\bin\uart.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\uart.h)(0x6412DB4E)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\string.h)(0x64189D90)
+F (.\keyboard.c)(0x6412DB4E)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\keyboard.o --omf_browse .\bin\keyboard.crf --depend .\bin\keyboard.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\keyboard.h)(0x6412DB4E)
+F (.\Servo.c)(0x641B7DC7)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\servo.o --omf_browse .\bin\servo.crf --depend .\bin\servo.d)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\Servo.h)(0x641B7BE5)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\FreeRTOS.h)(0x640270C0)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\FreeRTOSConfig.h)(0x6410E848)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\projdefs.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\portable.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\deprecated_definitions.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\mpu_wrappers.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\task.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\list.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\timer.h)(0x641A1850)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\timer_interrupts.h)(0x6412DB4E)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\led.h)(0x6410D334)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\keyboard.h)(0x6412DB4E)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\queue.h)(0x640270C0)
+F (.\timer_interrupts.c)(0x6412DB4E)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\timer_interrupts.o --omf_browse .\bin\timer_interrupts.crf --depend .\bin\timer_interrupts.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\timer_interrupts.h)(0x6412DB4E)
+F (.\timer.c)(0x641A1864)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\timer.o --omf_browse .\bin\timer.crf --depend .\bin\timer.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\timer.h)(0x641A1850)
+F (..\..\Source\tasks.c)(0x640270C0)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\tasks.o --omf_browse .\bin\tasks.crf --depend .\bin\tasks.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\FreeRTOS.h)(0x640270C0)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\FreeRTOSConfig.h)(0x6410E848)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\projdefs.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\portable.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\deprecated_definitions.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\mpu_wrappers.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\task.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\list.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\timers.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\stack_macros.h)(0x640270C0)
+F (..\..\Source\list.c)(0x640270C0)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\list.o --omf_browse .\bin\list.crf --depend .\bin\list.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\FreeRTOS.h)(0x640270C0)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\FreeRTOSConfig.h)(0x6410E848)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\projdefs.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\portable.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\deprecated_definitions.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\mpu_wrappers.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\list.h)(0x640270C0)
+F (..\..\Source\queue.c)(0x640270C0)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\queue.o --omf_browse .\bin\queue.crf --depend .\bin\queue.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\FreeRTOS.h)(0x640270C0)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\FreeRTOSConfig.h)(0x6410E848)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\projdefs.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\portable.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\deprecated_definitions.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\mpu_wrappers.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\task.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\list.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\queue.h)(0x640270C0)
+F (..\..\Source\portable\RVDS\ARM7_LPC21xx\port.c)(0x640270C0)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\port.o --omf_browse .\bin\port.crf --depend .\bin\port.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\FreeRTOS.h)(0x640270C0)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\FreeRTOSConfig.h)(0x6410E848)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\projdefs.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\portable.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\deprecated_definitions.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\mpu_wrappers.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\task.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\list.h)(0x640270C0)
+F (..\..\Source\portable\MemMang\heap_2.c)(0x640270C0)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I. -I..\..\Source\portable\RVDS\ARM7_LPC21xx -I..\Common\include -I..\..\Source\include-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK -o .\bin\heap_2.o --omf_browse .\bin\heap_2.crf --depend .\bin\heap_2.d)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\FreeRTOS.h)(0x640270C0)
+I (C:\Keil\ARM\ARMCC\include\stddef.h)(0x51C80BA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C80BA4)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Demo\ARM7_LPC2129_Keil_RVDS\FreeRTOSConfig.h)(0x6410E848)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x51C80D9C)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\projdefs.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\portable.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\deprecated_definitions.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\portable\RVDS\ARM7_LPC21xx\portmacro.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\mpu_wrappers.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\task.h)(0x640270C0)
+I (C:\Users\filip\Desktop\WZPSW\RTOS\5. Obsluga przerwan\5.1.1\FreeRTOS\Source\include\list.h)(0x640270C0)
+F (..\..\Source\portable\RVDS\ARM7_LPC21xx\portASM.s)(0x640270C0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I..\..\Source\portable\RVDS\ARM7_LPC21xx-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\portasm.lst --xref -o .\bin\portasm.o --depend .\bin\portasm.d)
